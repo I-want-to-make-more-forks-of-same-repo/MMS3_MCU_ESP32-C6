@@ -5,11 +5,11 @@
 	(uuid "842d5c06-a910-4479-a4f4-6ed7a879e075")
 	(paper "A4")
 	(title_block
-		(title "MMS3")
-		(date "2026-04-03")
-		(rev "XA1")
+		(title "MMS3 MCU ESP32-C6")
+		(date "2026-07-20")
+		(rev "1.0")
 		(company "(c) Modular Mechanica")
-		(comment 1 "Artem Horiunov")
+		(comment 1 "Wojciech Szafrański ")
 		(comment 2 "DESIGNED IN POLAND")
 	)
 	(lib_symbols
@@ -3309,17 +3309,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 130.81 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Part" "0402WGF2200TCE"
 			(at 130.81 97.79 0)
 			(hide yes)
@@ -3408,6 +3397,39 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 130.81 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 130.81 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 130.81 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ca1ef331-e5d5-4691-876b-9ad254e9b3ba")
 		)
@@ -3415,7 +3437,7 @@
 			(uuid "d98f1017-1e64-41e4-a849-7fcf08e14354")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "R2")
 					(unit 1)
@@ -3505,6 +3527,39 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 210.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 210.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 210.82 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0356d414-8846-485f-956c-1928aa99919d")
 		)
@@ -3515,7 +3570,7 @@
 			(uuid "91a37292-780a-4ebc-8423-90c3469bd9b3")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "U5")
 					(unit 1)
@@ -3597,7 +3652,7 @@
 			(uuid "188e932a-8e1e-49b2-8e13-62b9d71bb255")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "#PWR09")
 					(unit 1)
@@ -3680,7 +3735,7 @@
 			(uuid "a0301ac3-ae8e-4f2a-aa64-fc65d3674ef5")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "#PWR075")
 					(unit 1)
@@ -3762,7 +3817,7 @@
 			(uuid "ee604456-37a6-431e-8bf7-d49dc137a57f")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "#PWR05")
 					(unit 1)
@@ -3844,7 +3899,7 @@
 			(uuid "88d70dff-8b9f-4186-a851-7f8756dfa6cb")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "#PWR023")
 					(unit 1)
@@ -3926,7 +3981,7 @@
 			(uuid "0de68b54-64b1-4e60-b927-b0637ad6b6c4")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "#PWR07")
 					(unit 1)
@@ -4093,17 +4148,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 143.51 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Part" "0402WGF3302TCE"
 			(at 143.51 120.65 0)
 			(hide yes)
@@ -4192,6 +4236,39 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 143.51 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "34a488b3-6895-49e8-95c0-69407fc8a07d")
 		)
@@ -4199,7 +4276,7 @@
 			(uuid "78da31f5-86dc-40e0-8b3c-4b1532309204")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "R6")
 					(unit 1)
@@ -4281,7 +4358,7 @@
 			(uuid "e21da26c-5529-4df1-b91d-927124c66225")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "#PWR03")
 					(unit 1)
@@ -4448,17 +4525,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 130.81 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Part" "0402WGF2200TCE"
 			(at 130.81 113.03 0)
 			(hide yes)
@@ -4547,6 +4613,39 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 130.81 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 130.81 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 130.81 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc9894df-9b7e-4674-a3b0-a9bf09e6c15f")
 		)
@@ -4554,7 +4653,7 @@
 			(uuid "0a173008-2aab-4d19-aadd-c7c2539057b5")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "R4")
 					(unit 1)
@@ -4722,17 +4821,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 151.13 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Part" "CL05B103KB5NNNC"
 			(at 151.13 120.65 0)
 			(hide yes)
@@ -4788,6 +4876,39 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 151.13 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 151.13 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 151.13 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5bdb12d-29d2-43af-ad67-a742e9ed31e3")
 		)
@@ -4795,7 +4916,7 @@
 			(uuid "4c87e7a5-2ebe-4cf7-b5f8-ee60c3b24cae")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "C2")
 					(unit 1)
@@ -4872,6 +4993,39 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 147.32 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 147.32 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 147.32 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "9b0aa128-c0d1-4c6e-922d-707d0606b0f9")
 		)
@@ -4912,7 +5066,7 @@
 			(uuid "28501fab-286e-475a-bf7d-bad97feb73ad")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6880911b-5e0f-43e9-b80f-d604a9541b37"
 					(reference "J9")
 					(unit 1)

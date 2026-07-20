@@ -5,11 +5,11 @@
 	(uuid "068cf989-e848-47cd-bf9f-5b8330ddbc19")
 	(paper "A4")
 	(title_block
-		(title "MMS3")
-		(date "2026-04-03")
-		(rev "XA1")
+		(title "MMS3 MCU ESP32-C6")
+		(date "2026-07-20")
+		(rev "1.0")
 		(company "(c) Modular Mechanica")
-		(comment 1 "Artem Horiunov")
+		(comment 1 "Wojciech Szafrański ")
 		(comment 2 "DESIGNED IN POLAND")
 	)
 	(lib_symbols
@@ -2030,7 +2030,7 @@
 		(uuid "32b06aa7-3ad1-4077-bc93-bdf0be466be5")
 	)
 	(label "USB_OUT2.D+"
-		(at 86.36 99.06 0)
+		(at 86.36 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2040,7 +2040,7 @@
 		(uuid "73d8f5bf-9af3-4bd6-b2de-471cbec19225")
 	)
 	(label "USB_OUT1.D+"
-		(at 86.36 87.63 0)
+		(at 86.36 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2050,7 +2050,7 @@
 		(uuid "8bbda063-0e99-4efa-91a3-000a34a96b8b")
 	)
 	(label "USB_OUT2.D-"
-		(at 86.36 101.6 0)
+		(at 86.36 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2070,7 +2070,7 @@
 		(uuid "e85112c2-73f8-42e2-8148-06ca4dd7a416")
 	)
 	(label "USB_OUT1.D-"
-		(at 86.36 90.17 0)
+		(at 86.36 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2107,7 +2107,7 @@
 	)
 	(hierarchical_label "USB_OUT1{USB}"
 		(shape input)
-		(at 68.58 82.55 180)
+		(at 68.58 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2120,7 +2120,7 @@
 	)
 	(hierarchical_label "USB_OUT2{USB}"
 		(shape input)
-		(at 68.58 95.25 180)
+		(at 68.58 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2143,7 +2143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "231e6947-6252-4b2d-869e-2282e46d6d6d")
-		(property "Reference" "#PWR0812"
+		(property "Reference" "#PWR0801"
 			(at 148.59 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2198,16 +2198,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab7d0ea2-31cc-4003-aac1-6d559745b3fc")
+			(uuid "56a0303f-ca34-4d04-82f5-7018dd608fe0")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/1b16898e-d846-40ff-b34e-b932b9f35bb8"
-					(reference "#PWR0812")
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
+					(reference "#PWR0801")
 					(unit 1)
 				)
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec0f1218-5437-44fc-b2cc-e238358ce133"
-					(reference "#PWR0801")
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
+					(reference "#PWR0812")
 					(unit 1)
 				)
 			)
@@ -2225,7 +2225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23bcb496-41dd-4b57-bbd1-8bf794a5a670")
-		(property "Reference" "C313"
+		(property "Reference" "C312"
 			(at 151.13 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2368,17 +2368,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 148.59 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Part" "CL05B104KB54PNC"
 			(at 148.59 85.09 0)
 			(hide yes)
@@ -2434,20 +2423,53 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 148.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 148.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 148.59 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "0eaa2259-56c7-4390-8631-4a7e28c3a823")
+			(uuid "f20361c4-db1a-4090-9331-ebd68574ad2e")
 		)
 		(pin "2"
-			(uuid "82d89588-17ce-471b-b72d-34b3d2fc688f")
+			(uuid "5fdb1c77-2f69-4d81-912c-a3aeb4a48e21")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/1b16898e-d846-40ff-b34e-b932b9f35bb8"
-					(reference "C313")
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
+					(reference "C312")
 					(unit 1)
 				)
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec0f1218-5437-44fc-b2cc-e238358ce133"
-					(reference "C312")
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -2464,7 +2486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4630ab8c-7ad0-46ed-a4bd-656422c4d0aa")
-		(property "Reference" "#PWR0333"
+		(property "Reference" "#PWR0330"
 			(at 148.59 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2519,16 +2541,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd6e2468-4f25-4c62-86f4-5a09b4a48148")
+			(uuid "fa4d1c2c-7b23-4acd-8856-9e58f0fb59c5")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/1b16898e-d846-40ff-b34e-b932b9f35bb8"
-					(reference "#PWR0333")
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
+					(reference "#PWR0330")
 					(unit 1)
 				)
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec0f1218-5437-44fc-b2cc-e238358ce133"
-					(reference "#PWR0330")
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -2545,7 +2567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5efcb0ba-49d2-4b4a-a623-70742c4c8520")
-		(property "Reference" "#PWR0811"
+		(property "Reference" "#PWR0805"
 			(at 143.51 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2600,16 +2622,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3f0ddad-6f7e-4154-b635-85165c5f4931")
+			(uuid "c4fb07dd-5f28-472b-baaa-a86a9e1429e8")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/1b16898e-d846-40ff-b34e-b932b9f35bb8"
-					(reference "#PWR0811")
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
+					(reference "#PWR0805")
 					(unit 1)
 				)
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec0f1218-5437-44fc-b2cc-e238358ce133"
-					(reference "#PWR0805")
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
+					(reference "#PWR0811")
 					(unit 1)
 				)
 			)
@@ -2626,7 +2648,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8edd40ad-9650-4b0b-8353-7507d92b6c2f")
-		(property "Reference" "#PWR0810"
+		(property "Reference" "#PWR0807"
 			(at 107.95 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2681,16 +2703,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "60c2a424-cd3f-41b5-aaa9-27e4cf3a95f2")
+			(uuid "098dc3c6-3048-441d-933f-4f97a6adede1")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/1b16898e-d846-40ff-b34e-b932b9f35bb8"
-					(reference "#PWR0810")
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
+					(reference "#PWR0807")
 					(unit 1)
 				)
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec0f1218-5437-44fc-b2cc-e238358ce133"
-					(reference "#PWR0807")
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
+					(reference "#PWR0810")
 					(unit 1)
 				)
 			)
@@ -2707,7 +2729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2116622-a12d-4d6d-8cd5-9a468db2ecc4")
-		(property "Reference" "#PWR0809"
+		(property "Reference" "#PWR0806"
 			(at 99.06 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -2762,16 +2784,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "717ac772-dc32-4322-8747-73839c9d6fe4")
+			(uuid "2842a5d2-27b7-4ee0-b3c6-a21be010f947")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/1b16898e-d846-40ff-b34e-b932b9f35bb8"
-					(reference "#PWR0809")
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
+					(reference "#PWR0806")
 					(unit 1)
 				)
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec0f1218-5437-44fc-b2cc-e238358ce133"
-					(reference "#PWR0806")
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
+					(reference "#PWR0809")
 					(unit 1)
 				)
 			)
@@ -2789,7 +2811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c09e4403-b150-4e61-8ebb-bd115113acd2")
-		(property "Reference" "U802"
+		(property "Reference" "U801"
 			(at 125.73 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2986,44 +3008,77 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 125.73 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 125.73 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 125.73 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
-			(uuid "3f741a66-7270-4279-95bd-f863a13e321c")
+			(uuid "3905b85a-ae2c-4b1b-8b64-07e48bd50df5")
 		)
 		(pin "1"
-			(uuid "a0dfd63e-c715-4fbf-8912-82942c5d5b50")
+			(uuid "93412ae4-ee4f-47f5-bbda-fb8b6c426809")
 		)
 		(pin "5"
-			(uuid "bc365e94-f2aa-46f8-9f77-fa908eeafd50")
+			(uuid "9f9c475f-4b6b-4cf7-894f-0bf72d081ef8")
 		)
 		(pin "7"
-			(uuid "f294ca72-fabf-4668-b55a-76c34b12aba7")
+			(uuid "e643792f-b9bb-4f01-9f03-302b8968dabb")
 		)
 		(pin "9"
-			(uuid "99ab034e-7e84-42dc-a053-e24e6854478a")
+			(uuid "a0fad285-c116-4282-a13e-cff230821dcc")
 		)
 		(pin "2"
-			(uuid "c6d56dc3-fbcf-4b99-8b11-a3e377cde4f7")
+			(uuid "8696441f-a6da-44e0-82ba-c26bd4578489")
 		)
 		(pin "8"
-			(uuid "04749d1d-b194-4b6e-86ae-ffc893395b56")
+			(uuid "35a6ec25-5045-441d-a895-deb761ce80e4")
 		)
 		(pin "3"
-			(uuid "89b388de-2844-43ce-a402-632e4ed7cba3")
+			(uuid "3aba43eb-3b30-4d16-a90a-c5f6911690c8")
 		)
 		(pin "6"
-			(uuid "829ccbe7-356e-46a0-8da0-f9eb175fe8d7")
+			(uuid "28c33056-f623-4f29-a94f-4152d135efdd")
 		)
 		(pin "4"
-			(uuid "c6cab815-e361-4dd4-8042-7af4b848ff7f")
+			(uuid "d21d8e23-7876-4ce4-8cb7-56fe73a26cbb")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/1b16898e-d846-40ff-b34e-b932b9f35bb8"
-					(reference "U802")
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
+					(reference "U801")
 					(unit 1)
 				)
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec0f1218-5437-44fc-b2cc-e238358ce133"
-					(reference "U801")
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
+					(reference "U802")
 					(unit 1)
 				)
 			)
@@ -3040,7 +3095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6f69423-5a9a-4e4d-b9d2-bd6132d269a5")
-		(property "Reference" "R807"
+		(property "Reference" "R804"
 			(at 109.22 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3182,17 +3237,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 107.95 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Part" "0402WGF1002TCE"
 			(at 107.95 119.38 0)
 			(hide yes)
@@ -3281,20 +3325,53 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 107.95 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 107.95 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 107.95 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "43809091-f4ef-4dc3-a270-34d83e4d05b2")
+			(uuid "162d0e83-4d8e-457e-9daa-74594f53285c")
 		)
 		(pin "2"
-			(uuid "3ed9153f-f628-4a47-bf3a-9c7366441488")
+			(uuid "f69fff4e-f3b1-4e73-94a0-e5dca6007ba6")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/1b16898e-d846-40ff-b34e-b932b9f35bb8"
-					(reference "R807")
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
+					(reference "R804")
 					(unit 1)
 				)
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec0f1218-5437-44fc-b2cc-e238358ce133"
-					(reference "R804")
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
+					(reference "R807")
 					(unit 1)
 				)
 			)
@@ -3311,7 +3388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7343053-7a5c-4f0f-a85b-9136b8673a7a")
-		(property "Reference" "R805"
+		(property "Reference" "R802"
 			(at 93.98 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,17 +3529,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 93.98 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Part" "0402WGF1002TCE"
 			(at 93.98 113.03 0)
 			(hide yes)
@@ -3551,20 +3617,53 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 93.98 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 93.98 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 93.98 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "ad6d70c1-9208-444e-90a5-6ec9e603d0dc")
+			(uuid "5d325f30-c4d5-4413-90e0-559a3acb4e6a")
 		)
 		(pin "2"
-			(uuid "982ed20a-b67a-4ec7-8d54-a5dfe938b0c3")
+			(uuid "224e0735-9785-4896-afa4-cf8ef8a7db37")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/1b16898e-d846-40ff-b34e-b932b9f35bb8"
-					(reference "R805")
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
+					(reference "R802")
 					(unit 1)
 				)
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec0f1218-5437-44fc-b2cc-e238358ce133"
-					(reference "R802")
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
+					(reference "R805")
 					(unit 1)
 				)
 			)
@@ -3581,7 +3680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f320d772-7c34-4f5e-a99c-ab15c5f0ff86")
-		(property "Reference" "R806"
+		(property "Reference" "R803"
 			(at 100.33 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3723,17 +3822,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 99.06 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Part" "0402WGF2202TCE"
 			(at 99.06 119.38 0)
 			(hide yes)
@@ -3822,20 +3910,53 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "d3c07f24-6f80-4143-afda-c5d20d878ae8")
+			(uuid "26f5c0c9-9961-464d-a2c0-6d1ec4cc182f")
 		)
 		(pin "1"
-			(uuid "a3897d82-abbc-4700-8495-cc1998439c50")
+			(uuid "24e4e344-8bd5-4c3e-8a56-6446cfc31f6f")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/1b16898e-d846-40ff-b34e-b932b9f35bb8"
-					(reference "R806")
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
+					(reference "R803")
 					(unit 1)
 				)
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/ec0f1218-5437-44fc-b2cc-e238358ce133"
-					(reference "R803")
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
+					(reference "R806")
 					(unit 1)
 				)
 			)

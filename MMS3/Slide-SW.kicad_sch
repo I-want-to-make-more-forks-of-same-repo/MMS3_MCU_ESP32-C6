@@ -5,11 +5,11 @@
 	(uuid "0e177577-d332-4615-8985-e00d4e54e0ca")
 	(paper "A4")
 	(title_block
-		(title "MMS3")
-		(date "2026-04-03")
-		(rev "XA1")
+		(title "MMS3 MCU ESP32-C6")
+		(date "2026-07-20")
+		(rev "1.0")
 		(company "(c) Modular Mechanica")
-		(comment 1 "Artem Horiunov")
+		(comment 1 "Wojciech Szafrański ")
 		(comment 2 "DESIGNED IN POLAND")
 	)
 	(lib_symbols
@@ -1330,7 +1330,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,1kΩ")
-		(at 128.27 111.76 0)
+		(at 128.27 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1341,7 +1341,7 @@
 		(fields_autoplaced yes)
 		(uuid "255b45be-cb7c-4c3b-8af7-686e4e2418ff")
 		(property "Reference" "R31"
-			(at 130.81 111.7599 0)
+			(at 130.81 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1352,7 +1352,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 128.27 111.76 90)
+			(at 128.27 102.87 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1362,7 +1362,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 126.492 111.76 90)
+			(at 126.492 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1373,7 +1373,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1384,7 +1384,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 1kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1395,7 +1395,7 @@
 			)
 		)
 		(property "LCSC" "C11702"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1406,7 +1406,7 @@
 			)
 		)
 		(property "Stock" "6889074"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1417,7 +1417,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1428,7 +1428,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1439,7 +1439,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1450,7 +1450,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1461,7 +1461,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1472,18 +1472,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 128.27 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1494,7 +1483,7 @@
 			)
 		)
 		(property "Part" "0402WGF1001TCE"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1505,7 +1494,7 @@
 			)
 		)
 		(property "Resistance" "1kΩ"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1516,7 +1505,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1527,7 +1516,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1538,7 +1527,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1549,7 +1538,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1560,7 +1549,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1571,7 +1560,40 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 128.27 111.76 0)
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_Basic" "DNP"
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 128.27 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 128.27 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1588,8 +1610,8 @@
 			(uuid "be14fd02-382b-4ac2-bd55-8fa5c2161615")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/52278dca-3c86-4d4d-a41d-beb466f3ebfa"
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/5332ca3b-efcd-4d9b-b822-d9c330b0dec7"
 					(reference "R31")
 					(unit 1)
 				)
@@ -1598,7 +1620,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Diodes:LED,0603,Red")
-		(at 128.27 102.87 0)
+		(at 128.27 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1609,7 +1631,7 @@
 		(fields_autoplaced yes)
 		(uuid "50d2b4d4-ef59-4830-9cdf-5c6541df6ff7")
 		(property "Reference" "D6"
-			(at 130.81 101.5046 0)
+			(at 130.81 110.3946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1620,7 +1642,7 @@
 			)
 		)
 		(property "Value" "Red"
-			(at 130.81 104.0447 0)
+			(at 130.81 112.9347 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1631,7 +1653,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:D_0603"
-			(at 126.492 102.87 90)
+			(at 126.492 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1642,7 +1664,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1653,7 +1675,7 @@
 			)
 		)
 		(property "Description" "-40°C~+85°C Red 0603 LED Indication - Discrete ROHS"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1664,7 +1686,7 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1675,7 +1697,7 @@
 			)
 		)
 		(property "Stock" "2382519"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1686,7 +1708,7 @@
 			)
 		)
 		(property "Price" "0.009USD"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1697,7 +1719,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1708,7 +1730,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1719,7 +1741,7 @@
 			)
 		)
 		(property "Attrition Qty" "6"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1730,7 +1752,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1741,18 +1763,7 @@
 			)
 		)
 		(property "Category" "Optocouplers & LEDs & Infrared,Light Emitting Diodes (LED)"
-			(at 128.27 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Hubei KENTO Elec"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1763,7 +1774,40 @@
 			)
 		)
 		(property "Part" "KT-0603R"
-			(at 128.27 102.87 0)
+			(at 128.27 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_Basic" "DNP"
+			(at 128.27 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 128.27 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 128.27 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1780,8 +1824,8 @@
 			(uuid "1c4fb52a-beb8-47a0-87f0-1fc4e49f2bb8")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/52278dca-3c86-4d4d-a41d-beb466f3ebfa"
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/5332ca3b-efcd-4d9b-b822-d9c330b0dec7"
 					(reference "D6")
 					(unit 1)
 				)
@@ -1857,8 +1901,8 @@
 			(uuid "cffd79ae-d664-4797-ba8a-abb9fed6db89")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/52278dca-3c86-4d4d-a41d-beb466f3ebfa"
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/5332ca3b-efcd-4d9b-b822-d9c330b0dec7"
 					(reference "#PWR065")
 					(unit 1)
 				)
@@ -1935,8 +1979,8 @@
 			(uuid "fa43c068-291d-44a7-ac4d-a58081a084c7")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/52278dca-3c86-4d4d-a41d-beb466f3ebfa"
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/5332ca3b-efcd-4d9b-b822-d9c330b0dec7"
 					(reference "#PWR064")
 					(unit 1)
 				)
@@ -2010,17 +2054,6 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 119.38 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "SK12D07VG5"
 			(at 121.92 96.52 0)
 			(hide yes)
@@ -2034,6 +2067,39 @@
 		)
 		(property "LCSC Part" "C431548"
 			(at 124.46 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_Basic" "DNP"
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 101.6 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2059,8 +2125,8 @@
 			(uuid "35ddb82d-c266-4449-be8c-61456a4540b7")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/52278dca-3c86-4d4d-a41d-beb466f3ebfa"
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/5332ca3b-efcd-4d9b-b822-d9c330b0dec7"
 					(reference "SW4")
 					(unit 1)
 				)
@@ -2138,8 +2204,8 @@
 			(uuid "22e3fb63-6198-40a7-94e4-3668e9e09cf4")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/52278dca-3c86-4d4d-a41d-beb466f3ebfa"
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/5332ca3b-efcd-4d9b-b822-d9c330b0dec7"
 					(reference "#PWR057")
 					(unit 1)
 				)
@@ -2216,8 +2282,8 @@
 			(uuid "65dc4f92-71cf-4f6e-be42-40a334e58192")
 		)
 		(instances
-			(project "MMS3"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/52278dca-3c86-4d4d-a41d-beb466f3ebfa"
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/5332ca3b-efcd-4d9b-b822-d9c330b0dec7"
 					(reference "#PWR063")
 					(unit 1)
 				)

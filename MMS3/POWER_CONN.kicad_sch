@@ -5,11 +5,11 @@
 	(uuid "b38cdfaa-32cc-41c0-9186-cc90f070b0c0")
 	(paper "A4")
 	(title_block
-		(title "MMS3")
-		(date "2026-04-03")
-		(rev "XA1")
+		(title "MMS3 MCU ESP32-C6")
+		(date "2026-07-20")
+		(rev "1.0")
 		(company "(c) Modular Mechanica")
-		(comment 1 "Artem Horiunov")
+		(comment 1 "Wojciech Szafrański ")
 		(comment 2 "DESIGNED IN POLAND")
 	)
 	(lib_symbols
@@ -536,7 +536,7 @@
 			(uuid "ba2f72cd-a045-4cfe-b12c-f99af0802b0c")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/2a5c3dbe-0d5f-4585-982a-21b34a9f1cbf"
 					(reference "#PWR024")
 					(unit 1)
@@ -620,6 +620,39 @@
 				)
 			)
 		)
+		(property "DNP_Basic" "DNP"
+			(at 129.54 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DNP_normal" ""
+			(at 129.54 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 129.54 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a19f25d-9d93-49bf-b7fd-734ea375b0a3")
 		)
@@ -627,7 +660,7 @@
 			(uuid "9228e6a4-dc57-410a-91db-33e899b39fd9")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/2a5c3dbe-0d5f-4585-982a-21b34a9f1cbf"
 					(reference "J7")
 					(unit 1)
@@ -705,7 +738,7 @@
 			(uuid "6b88cc1f-a517-4c73-8e47-6b367ef63726")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/2a5c3dbe-0d5f-4585-982a-21b34a9f1cbf"
 					(reference "#PWR025")
 					(unit 1)

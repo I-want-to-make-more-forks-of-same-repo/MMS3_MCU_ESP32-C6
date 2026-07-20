@@ -5,11 +5,11 @@
 	(uuid "846dc0f5-a546-4a07-b186-2ef0b167566d")
 	(paper "A4")
 	(title_block
-		(title "MMS3")
+		(title "MMS3 MCU ESP32-C6")
 		(date "2026-04-03")
 		(rev "XA1")
 		(company "(c) Modular Mechanica")
-		(comment 1 "Artem Horiunov")
+		(comment 1 "Wojciech Szafrański ")
 		(comment 2 "DESIGNED IN POLAND")
 	)
 	(lib_symbols
@@ -4177,13 +4177,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "800bafab-6893-4ae7-99eb-53a21e52273b")
+			(uuid "e99ccffd-c5bc-4d2d-8d04-b60137b7e9b1")
 		)
 		(pin "1"
-			(uuid "e49b3464-4d23-4f1d-88bb-013c26606424")
+			(uuid "af09e46c-73ec-4bc8-9d59-6b1e087dc49a")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R20")
 					(unit 1)
@@ -4367,13 +4367,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "7a732c5f-3d86-4ac5-af26-0bc0aaa5cfb6")
+			(uuid "92d0f2cd-53de-413b-9623-fed564f855c8")
 		)
 		(pin "1"
-			(uuid "b0cde156-0e06-4780-b018-0beb1c782827")
+			(uuid "b5f467fa-d7ca-483b-a787-4d773f8912f1")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "D301")
 					(unit 1)
@@ -4447,10 +4447,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "887e24ae-8d33-4f90-87ca-3f06dba8b821")
+			(uuid "6e2f7a0a-d0da-4d51-a8bf-d0dfe81048b8")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "#PWR0329")
 					(unit 1)
@@ -4524,10 +4524,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a937b5fd-5a71-44b6-8e50-2f481fc0c8e1")
+			(uuid "9baf623f-7abe-4884-8ad9-3f120e2fa317")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "#PWR0900")
 					(unit 1)
@@ -4601,10 +4601,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e02ee107-f3fe-49d1-9543-5fe111e8c0b7")
+			(uuid "e785812f-4c9d-4d02-b7b3-0912248ae16f")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "#PWR0328")
 					(unit 1)
@@ -4864,13 +4864,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "cf39e1cc-97b2-4c69-b92e-7e616e40a5ec")
+			(uuid "20716898-99c8-4afe-bf37-bbabe82325e0")
 		)
 		(pin "1"
-			(uuid "34133c4a-d15c-41fb-9474-fd0d8e3121f1")
+			(uuid "b6aba0eb-0a91-4cff-a8b3-07ad5f7bb4f7")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R902")
 					(unit 1)
@@ -4944,58 +4944,58 @@
 			)
 		)
 		(pin "13"
-			(uuid "83ebc49c-131d-44e5-8202-1211f2f6c2af")
+			(uuid "87851b8c-7d0c-48a3-936d-ca380628db99")
 		)
 		(pin "2"
-			(uuid "f4c260eb-ee8b-4f6a-a5bb-bf80d28dbc83")
+			(uuid "aaa5fa17-b138-40ec-9fb8-19139cc26294")
 		)
 		(pin "14"
-			(uuid "d5311947-12de-4d8e-9008-044f8d1f1571")
+			(uuid "1b932415-7c74-4ff5-a0b0-8b2863043f70")
 		)
 		(pin "5"
-			(uuid "d73b6ddc-1a27-48a5-98cc-26fd529b3177")
+			(uuid "df548912-14e6-43f4-9921-2696b9701317")
 		)
 		(pin "1"
-			(uuid "3f2f06aa-aa10-467d-a309-dd5e14f07123")
+			(uuid "973ab078-d6fd-4a17-9b4e-fbf473cf9d4e")
 		)
 		(pin "16"
-			(uuid "dace179b-3d44-4dd3-99cd-34cc8a6549f1")
+			(uuid "99557280-96db-4563-9bfd-c9a2c5963454")
 		)
 		(pin "15"
-			(uuid "9ecf379b-4929-4bb5-a70b-d012619c0040")
+			(uuid "83fbd6dc-ff3c-4331-a20a-290cc92f9b13")
 		)
 		(pin "12"
-			(uuid "3e99c4c9-ce26-4b82-8361-7c25e3961c51")
+			(uuid "5785926e-23f8-4c07-b30c-1ced38357803")
 		)
 		(pin "9"
-			(uuid "8e9a6b8e-1843-4894-a2c3-84d1b98308bc")
+			(uuid "b065149e-3efd-468e-be17-0da13d6ccdce")
 		)
 		(pin "4"
-			(uuid "574d5904-452c-47fa-97fd-8fefe1e1196b")
+			(uuid "7d2181a2-1bcf-4867-a842-6a7804c03ca1")
 		)
 		(pin "17"
-			(uuid "4dff9964-364e-4ebb-ba00-6180eac509b4")
+			(uuid "5bd4628c-e842-4060-9d89-fae46809e026")
 		)
 		(pin "6"
-			(uuid "1c7cad0b-5fbc-43d1-89df-0c3e58bcd538")
+			(uuid "85b04d8c-ec86-46c5-8939-5a35763e5990")
 		)
 		(pin "10"
-			(uuid "84e77267-2111-408a-a9f2-eb422d7ea144")
+			(uuid "3bc9d026-7eab-4b16-8f70-f4367320e7b6")
 		)
 		(pin "8"
-			(uuid "f7301bfa-7470-4168-9b36-43d9e798275c")
+			(uuid "56796a27-e878-4f92-8d92-9b68b80f2b26")
 		)
 		(pin "11"
-			(uuid "dc6c093a-06d5-4a64-8551-f7c68c17a579")
+			(uuid "571b26c1-73c1-499d-89f3-cfec5e4f03c8")
 		)
 		(pin "7"
-			(uuid "048bc61b-4cc5-4219-b4c0-563b66400e10")
+			(uuid "251247d6-86cd-4780-ba8a-d2568f47e861")
 		)
 		(pin "3"
-			(uuid "edbaf8ce-ad7e-4506-9f1c-b4c5229e13a6")
+			(uuid "520780f0-80c5-4cc5-b4ef-dad021f46e08")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "U302")
 					(unit 1)
@@ -5255,13 +5255,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "cc6e56ad-016c-44a2-bd38-b391b17c0262")
+			(uuid "e0709338-936e-4bfb-b888-4aa849544d4a")
 		)
 		(pin "1"
-			(uuid "aa65bc63-2c73-4405-bd18-c4f16ffbc555")
+			(uuid "d6fcdf94-52ee-48ca-8bc9-deae4133638d")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R17")
 					(unit 1)
@@ -5335,10 +5335,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6728ed5b-feb6-48dc-b7ec-5ec5a8272912")
+			(uuid "fb257bf8-4849-42b4-b514-0dfc93adbfcf")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "#PWR0901")
 					(unit 1)
@@ -5412,10 +5412,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "db936e70-36b1-4cc8-83a3-1f41cd108f09")
+			(uuid "559822b4-be36-4060-b63c-084664d1a8b1")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "#PWR0905")
 					(unit 1)
@@ -5676,13 +5676,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "69c9776b-704f-4acf-8a02-8faf9241f785")
+			(uuid "3a080583-7cb2-441f-bbd5-e5befb4c4f94")
 		)
 		(pin "2"
-			(uuid "561e3a23-9777-45f7-8ce3-fa51412673b7")
+			(uuid "620a7863-176f-48b2-ac23-2f9ee416596f")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R308")
 					(unit 1)
@@ -5942,13 +5942,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "d34ad497-085a-4cff-80a0-bdfb2b53d233")
+			(uuid "9874804c-7df3-42b0-aea7-78e2fe28697c")
 		)
 		(pin "1"
-			(uuid "48ece3aa-6d60-4a5d-afef-20d26b7d1222")
+			(uuid "476e2493-0898-49bf-a80c-021f02d54921")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R18")
 					(unit 1)
@@ -6208,13 +6208,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "12b5ae3d-bddb-4044-a424-d39b8a13f1d5")
+			(uuid "85dc8cb8-9263-478d-aa74-e34b7e0e1fac")
 		)
 		(pin "1"
-			(uuid "9b7fb873-294a-41a3-83ad-25d1b5b04e62")
+			(uuid "ff5bb89b-e855-48b1-814e-9702519d0256")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R903")
 					(unit 1)
@@ -6443,13 +6443,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "91bff3ea-7a30-4b28-934a-2a1b3d2a2a29")
+			(uuid "556f794f-0795-4ec6-aa7d-6fe28a7b5121")
 		)
 		(pin "2"
-			(uuid "93cba5ae-4a55-4ff4-8303-0db7c5e64767")
+			(uuid "4eb361f2-44f0-46cb-b1ad-e6b3fe89f844")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "C902")
 					(unit 1)
@@ -6709,13 +6709,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "b53929ab-765e-49b9-a697-e4b906a71cd1")
+			(uuid "1281026d-060c-42fe-a714-07405bd87d22")
 		)
 		(pin "1"
-			(uuid "0b95fadd-12a4-46f1-a0f8-b5e153a2dac8")
+			(uuid "cb1f69dd-22da-4b44-9ac2-ca24ae0400d3")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R19")
 					(unit 1)
@@ -6789,10 +6789,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8c5f1589-df66-472e-9b76-f5f971ce7b80")
+			(uuid "627e974c-334a-46bf-96d8-cc0823dd31ed")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "#PWR0902")
 					(unit 1)
@@ -7021,13 +7021,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "7e8bc7aa-b868-4825-8db8-3798072338aa")
+			(uuid "d084633d-0f9a-40cd-9ff6-bba3210c67f5")
 		)
 		(pin "1"
-			(uuid "c3d64325-e244-467d-bd8a-ea376536f2c1")
+			(uuid "57b6439b-b6ca-4453-b494-a1541a798975")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "C900")
 					(unit 1)
@@ -7256,13 +7256,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "c7a7eac2-c08d-4d6e-a9aa-8a313542fd9d")
+			(uuid "f8d8afde-a541-40dd-b914-684e40bdef5d")
 		)
 		(pin "1"
-			(uuid "13df4550-dc53-414b-a815-df90f285616a")
+			(uuid "68f082eb-59a8-4f40-99ea-45cba8cf3892")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "C904")
 					(unit 1)
@@ -7522,13 +7522,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "652e829a-e88a-41ea-884c-0ca91c19d207")
+			(uuid "34b8c90b-40e5-4acd-8fa0-e04bd30b30b5")
 		)
 		(pin "1"
-			(uuid "d04d7def-96b4-4438-bdba-218b47938535")
+			(uuid "b066c4c4-970f-40bf-a8ef-8d41f9b4237a")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R906")
 					(unit 1)
@@ -7788,13 +7788,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "bbd7c298-f9c9-401b-82c3-e2e03629e782")
+			(uuid "12b80f3c-698b-4588-ae2f-a21ad7f9afad")
 		)
 		(pin "1"
-			(uuid "ff8a9ec5-1e4f-4fdd-978a-b690665b9917")
+			(uuid "1cc6f2aa-f8a4-4115-8a81-ae1c41b5b74c")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R907")
 					(unit 1)
@@ -7869,10 +7869,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "945091d7-13b4-469c-b051-4909a3b9678c")
+			(uuid "4d2c6359-4d8e-4f9f-ad53-b05309be2e18")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "#PWR0904")
 					(unit 1)
@@ -8132,13 +8132,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "e266b5eb-6245-4582-8136-7d137870e9df")
+			(uuid "08b92605-c0b9-456b-94c9-2cbc2f167d52")
 		)
 		(pin "1"
-			(uuid "28eb80cb-df4e-479a-bd20-ca817c943d84")
+			(uuid "d96e44a8-0aeb-4d53-8661-f21188414e91")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R21")
 					(unit 1)
@@ -8224,19 +8224,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "654d1550-d182-4a13-b231-8faab668e6cc")
+			(uuid "1a366244-008f-4068-9470-352d98f34513")
 		)
 		(pin "2"
-			(uuid "8b504b60-8329-4097-a370-7a2a2a2f6cf3")
+			(uuid "356baf71-7bb1-46ad-8c3f-97ef28ab729d")
 		)
 		(pin "3"
-			(uuid "07e169af-b178-48a1-a449-209e37c176da")
+			(uuid "388e1b4d-d5e1-4fc4-89e8-5d97c2107689")
 		)
 		(pin "4"
-			(uuid "f728a682-741a-417a-869e-94c586d52c55")
+			(uuid "f893d163-48b1-44cc-9220-7e09124b90b3")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "Y900")
 					(unit 1)
@@ -8496,13 +8496,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "0e6a7f6d-d1b3-457f-b53e-ef4bf042c75f")
+			(uuid "6c2ee480-3db8-49c7-bb6e-5819094d386b")
 		)
 		(pin "1"
-			(uuid "9e2cc0a7-a579-4a0e-bfad-0396aa128da1")
+			(uuid "34233d13-5ecb-48b2-b548-7aa18841ce3d")
 		)
 		(instances
-			(project "MMS3"
+			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/6d97a548-c5fd-464f-b259-1eef25670dc7"
 					(reference "R16")
 					(unit 1)
