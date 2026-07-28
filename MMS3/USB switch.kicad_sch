@@ -2225,7 +2225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23bcb496-41dd-4b57-bbd1-8bf794a5a670")
-		(property "Reference" "C312"
+		(property "Reference" "C5"
 			(at 151.13 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2465,11 +2465,11 @@
 		(instances
 			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
-					(reference "C312")
+					(reference "C5")
 					(unit 1)
 				)
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
-					(reference "C313")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2811,7 +2811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c09e4403-b150-4e61-8ebb-bd115113acd2")
-		(property "Reference" "U801"
+		(property "Reference" "U3"
 			(at 125.73 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3074,11 +3074,11 @@
 		(instances
 			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
-					(reference "U801")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
-					(reference "U802")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3095,7 +3095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6f69423-5a9a-4e4d-b9d2-bd6132d269a5")
-		(property "Reference" "R804"
+		(property "Reference" "R10"
 			(at 109.22 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3367,11 +3367,11 @@
 		(instances
 			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
-					(reference "R804")
+					(reference "R10")
 					(unit 1)
 				)
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
-					(reference "R807")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3388,7 +3388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7343053-7a5c-4f0f-a85b-9136b8673a7a")
-		(property "Reference" "R802"
+		(property "Reference" "R8"
 			(at 93.98 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3659,11 +3659,11 @@
 		(instances
 			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
-					(reference "R802")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
-					(reference "R805")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3680,7 +3680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f320d772-7c34-4f5e-a99c-ab15c5f0ff86")
-		(property "Reference" "R803"
+		(property "Reference" "R9"
 			(at 100.33 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3952,11 +3952,11 @@
 		(instances
 			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/588e5e8a-0269-4161-b9f0-fd5ae057e0d0"
-					(reference "R803")
+					(reference "R9")
 					(unit 1)
 				)
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/d394fa85-d1a1-4f94-8f54-7ea4e8d94b3a"
-					(reference "R806")
+					(reference "R14")
 					(unit 1)
 				)
 			)

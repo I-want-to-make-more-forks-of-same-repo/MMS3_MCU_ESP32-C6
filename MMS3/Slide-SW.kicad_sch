@@ -1340,7 +1340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "255b45be-cb7c-4c3b-8af7-686e4e2418ff")
-		(property "Reference" "R31"
+		(property "Reference" "R11"
 			(at 130.81 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1612,7 +1612,7 @@
 		(instances
 			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/5332ca3b-efcd-4d9b-b822-d9c330b0dec7"
-					(reference "R31")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1630,7 +1630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50d2b4d4-ef59-4830-9cdf-5c6541df6ff7")
-		(property "Reference" "D6"
+		(property "Reference" "D2"
 			(at 130.81 110.3946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1826,7 +1826,7 @@
 		(instances
 			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/5332ca3b-efcd-4d9b-b822-d9c330b0dec7"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "768a03c5-3c52-4097-8c86-ee2c3aaac720")
-		(property "Reference" "SW4"
+		(property "Reference" "SW1"
 			(at 97.4099 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2127,7 +2127,7 @@
 		(instances
 			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/5332ca3b-efcd-4d9b-b822-d9c330b0dec7"
-					(reference "SW4")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
