@@ -3,4 +3,6 @@
 	(lib (name "Tact") (type "KiCad") (uri "/data/UserSpace/Projects/HW/MMS3/Lib/Tact-sw/Tact.kicad_sym") (options "") (descr ""))
 	(lib (name "FixLed307") (type "KiCad") (uri "${KIPRJMOD}/Lib/Fixled307/FixLed307.kicad_sym") (options "") (descr ""))
 	(lib (name "Tact-sw") (type "KiCad") (uri "${KIPRJMOD}/Lib/Tact-sw/Tact-sw.kicad_sym") (options "") (descr ""))
+	(lib (name "2_tact_switch") (type "KiCad") (uri "${KIPRJMOD}/Lib/2_tact_switch.pretty/2_tact_switch.kicad_sym") (options "") (descr ""))
+	(lib (name "I2C_GPIO") (type "KiCad") (uri "${KIPRJMOD}/Lib/I2C_GPIO.pretty/I2C_GPIO.kicad_sym") (options "") (descr ""))
 )

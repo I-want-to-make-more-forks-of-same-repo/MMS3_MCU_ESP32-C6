@@ -1139,6 +1139,186 @@
           "label": "Rectified Current",
           "name": "Rectified Current",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rated Current",
+          "name": "Rated Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DC Resistance",
+          "name": "DC Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Q @ Freq",
+          "name": "Q @ Freq",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DC Resistance (DCR)",
+          "name": "DC Resistance (DCR)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Circuits",
+          "name": "Circuits",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Maximum Clamping Voltage",
+          "name": "Maximum Clamping Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Collector Current (Ic)",
+          "name": "Collector Current (Ic)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Collector Cut-Off Current (Icbo)",
+          "name": "Collector Cut-Off Current (Icbo)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency",
+          "name": "Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency - Self Resonant",
+          "name": "Frequency - Self Resonant",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Normal Temperature Frequency Tolerance",
+          "name": "Normal Temperature Frequency Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Number of Lines",
+          "name": "Number of Lines",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency Stability",
+          "name": "Frequency Stability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Frequency Tolerance",
+          "name": "Frequency Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance @ Frequency",
+          "name": "Impedance @ Frequency",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Inductance",
+          "name": "Inductance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Collector-Emitter Breakdown Voltage (Vceo)",
+          "name": "Collector-Emitter Breakdown Voltage (Vceo)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)",
+          "name": "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Transistor Type",
+          "name": "Transistor Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Transition Frequency (fT)",
+          "name": "Transition Frequency (fT)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KiLib_Generator",
+          "name": "KiLib_Generator",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PartID",
+          "name": "PartID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Breakdown Voltage",
+          "name": "Breakdown Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Crystal Type",
+          "name": "Crystal Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Load Capacitance",
+          "name": "Load Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "polarity",
+          "name": "polarity",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current Rating",
+          "name": "Current Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power Dissipation (Pd)",
+          "name": "Power Dissipation (Pd)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DC Current Gain (hFE@Ic,Vce)",
+          "name": "DC Current Gain (hFE@Ic,Vce)",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1283,7 +1463,7 @@
         "uuid": "712cea22-140d-4c92-923f-f4998caf3ecd"
       }
     ],
-    "used_designators": "#PWR87,#PWR98-99,#PWR101-103,U12,C37,C48,R43-51",
+    "used_designators": "D6-8,#PWR125,#PWR127-135,#PWR527-529,L5-6,R22-32,R35,R40-41,R52-56,R62-69,C11-16,C19,C22-24,C51,C54-55,KEY1,U12,U14,JP1",
     "variants": []
   },
   "sheets": [
@@ -1345,7 +1525,7 @@
     ],
     [
       "815d740f-c847-44c5-bc6c-19add2e7bfd6",
-      "Input-Output"
+      "User IO"
     ],
     [
       "6293ce90-9b00-41f8-95cd-8a2592163f0a",
