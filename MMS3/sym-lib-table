@@ -5,4 +5,5 @@
 	(lib (name "Tact-sw") (type "KiCad") (uri "${KIPRJMOD}/Lib/Tact-sw/Tact-sw.kicad_sym") (options "") (descr ""))
 	(lib (name "2_tact_switch") (type "KiCad") (uri "${KIPRJMOD}/Lib/2_tact_switch.pretty/2_tact_switch.kicad_sym") (options "") (descr ""))
 	(lib (name "I2C_GPIO") (type "KiCad") (uri "${KIPRJMOD}/Lib/I2C_GPIO.pretty/I2C_GPIO.kicad_sym") (options "") (descr ""))
+	(lib (name "spi_flash") (type "KiCad") (uri "${KIPRJMOD}/Lib/spi_flash.pretty/spi_flash.kicad_sym") (options "") (descr ""))
 )

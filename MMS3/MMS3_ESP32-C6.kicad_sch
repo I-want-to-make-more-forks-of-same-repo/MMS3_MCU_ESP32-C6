@@ -1697,6 +1697,24 @@
 		(uuid "10ddaa69-a936-463d-a2f4-9eee1112577c")
 	)
 	(bus_entry
+		(at 372.11 203.2)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ebe576-041b-4964-b8df-94c1e0feeda9")
+	)
+	(bus_entry
+		(at 374.65 182.88)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8473f252-f33e-412f-939a-67b2e6f9d680")
+	)
+	(bus_entry
 		(at 339.09 200.66)
 		(size 2.54 2.54)
 		(stroke
@@ -1713,6 +1731,24 @@
 			(type default)
 		)
 		(uuid "c4dd7ac3-8ada-4981-86ff-edf6d7beae33")
+	)
+	(bus_entry
+		(at 374.65 203.2)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56f611a-d6dd-47de-8650-6e273f84b67f")
+	)
+	(bus_entry
+		(at 374.65 180.34)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e727f294-7df3-445e-8876-d1b6fb45a4d4")
 	)
 	(bus_entry
 		(at 339.09 203.2)
@@ -1745,7 +1781,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 205.74) (xy 341.63 205.74)
+			(xy 341.63 205.74) (xy 372.11 205.74)
 		)
 		(stroke
 			(width 0)
@@ -1935,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 203.2) (xy 341.63 203.2)
+			(xy 341.63 203.2) (xy 372.11 203.2)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 182.88) (xy 341.63 182.88)
+			(xy 341.63 182.88) (xy 372.11 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2015,7 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 185.42) (xy 341.63 185.42)
+			(xy 341.63 185.42) (xy 372.11 185.42)
 		)
 		(stroke
 			(width 0)
@@ -21343,6 +21379,16 @@
 			"QRAEQRAEQRAEQRAEQRAE4Tzz/wGgHZgBoUHVbQAAAABJRU5ErkJggg=="
 		)
 	)
+	(label "Altmode1"
+		(at 369.57 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a0a3049-5679-4658-81aa-fcd58bf4638d")
+	)
 	(label "CAN2.TX"
 		(at 349.25 185.42 180)
 		(effects
@@ -21392,6 +21438,16 @@
 			(justify left bottom)
 		)
 		(uuid "404d60fb-4d2e-43dc-ace0-479b970bccdc")
+	)
+	(label "Altmode3"
+		(at 369.57 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49ad2c20-8e14-426a-af04-084f34ff01a2")
 	)
 	(label "CAN1{RX TX}"
 		(at 325.12 198.12 180)
@@ -21443,6 +21499,16 @@
 		)
 		(uuid "8dd97e88-e5be-4333-9441-60882ef184bd")
 	)
+	(label "Altmode2"
+		(at 369.57 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e7db25b-6102-433e-b6b1-f14814d88224")
+	)
 	(label "RJ45_DWN_RX1"
 		(at 359.41 99.06 0)
 		(effects
@@ -21492,6 +21558,16 @@
 			(justify right bottom)
 		)
 		(uuid "f0311048-2491-4a6e-9fcc-32fe5d470a8d")
+	)
+	(label "Altmode4"
+		(at 369.57 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f14e4e8f-a749-4b2e-9018-90968ad76665")
 	)
 	(label "Select_GPIO"
 		(at 132.08 205.74 0)
