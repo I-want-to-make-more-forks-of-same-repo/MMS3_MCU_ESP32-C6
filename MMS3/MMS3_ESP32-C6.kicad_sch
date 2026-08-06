@@ -13,194 +13,6 @@
 		(comment 2 "DESIGNED IN POLAND")
 	)
 	(lib_symbols
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Graphic:SYM_ESD_Small"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -962,6 +774,293 @@
 				)
 			)
 			(symbol "General,SM4007PL_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_JLCPCB-Diodes:Schottky,1N5819WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 2.032 0.834 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1N5819WS"
+				(at 2.032 -1.2122 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409300937_Guangdong-Hottech-1N5819WS_C191023.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Diodes ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C191023"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Stock" "1836556"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" "0.013USD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Guangdong Hottech"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Part" "1N5819WS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rectified Current" "1A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Forward Voltage (Vf@If)" "600mV@1A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reverse Voltage (Vr)" "40V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Schottky,1N5819WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 -1.27) (xy 1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27) (xy -1.27 -1.27) (xy -1.27 -0.635) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Schottky,1N5819WS_1_1"
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 3.81)
@@ -1819,6 +1918,16 @@
 		)
 		(uuid "0e5bef9f-e763-4d9c-8322-609c6671cf74")
 	)
+	(wire
+		(pts
+			(xy 374.65 101.6) (xy 355.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f022b03-a615-45ae-951f-a2627535695b")
+	)
 	(polyline
 		(pts
 			(xy 167.64 134.62) (xy 166.37 140.97)
@@ -2059,15 +2168,25 @@
 		)
 		(uuid "5547bc73-225f-4fa9-bf85-fef58f4306a3")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 355.6 114.3) (xy 378.46 114.3)
+			(xy 374.65 92.71) (xy 355.6 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "558d1458-34ce-46d0-8242-ae8bf03fa7d3")
+		(uuid "5617f1bc-957a-4ce9-933d-70048e7a8006")
+	)
+	(wire
+		(pts
+			(xy 374.65 107.95) (xy 355.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e44fe4-d8cb-4fcc-a940-9c481c623fe9")
 	)
 	(polyline
 		(pts
@@ -2201,26 +2320,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 99.06) (xy 378.46 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c937111-14e9-4a6a-ad12-f3e40f2726c2")
-	)
-	(wire
-		(pts
-			(xy 359.41 107.95) (xy 378.46 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e7b7304-b850-4357-9c0d-b4e3b5acad59")
-	)
-	(wire
-		(pts
 			(xy 259.08 149.86) (xy 271.78 149.86)
 		)
 		(stroke
@@ -2289,16 +2388,6 @@
 		)
 		(uuid "9024ee0f-484c-4a14-9fe6-ff9c2ef0bfb7")
 	)
-	(wire
-		(pts
-			(xy 359.41 110.49) (xy 378.46 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "984292f0-da5f-40a5-8877-2b92b397854a")
-	)
 	(bus
 		(pts
 			(xy 151.13 217.17) (xy 166.37 217.17)
@@ -2358,6 +2447,16 @@
 			(type default)
 		)
 		(uuid "a6165482-5316-460e-b197-3bdb23ee1f6d")
+	)
+	(bus
+		(pts
+			(xy 355.6 114.3) (xy 378.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abaef501-dd80-45d4-a7b9-fd47f91c4d83")
 	)
 	(wire
 		(pts
@@ -2499,16 +2598,6 @@
 		)
 		(uuid "cf627afe-5482-4471-901f-437216257498")
 	)
-	(wire
-		(pts
-			(xy 359.41 101.6) (xy 378.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c2f609-5989-4077-a2fd-77b1fa364e7a")
-	)
 	(bus
 		(pts
 			(xy 53.34 162.56) (xy 53.34 68.58)
@@ -2518,6 +2607,16 @@
 			(type default)
 		)
 		(uuid "d1e2d9ed-d61e-4dba-9760-aa69433e6613")
+	)
+	(wire
+		(pts
+			(xy 374.65 99.06) (xy 355.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d265e2a5-fb36-4514-893d-4cb9d5840cc0")
 	)
 	(bus
 		(pts
@@ -2569,16 +2668,6 @@
 		)
 		(uuid "dd6a87a7-b54c-4b3c-b603-1e7bb43f951e")
 	)
-	(wire
-		(pts
-			(xy 359.41 92.71) (xy 378.46 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de9654ff-0d1e-45a6-a7a9-b56be406043f")
-	)
 	(bus
 		(pts
 			(xy 222.25 177.8) (xy 271.78 177.8)
@@ -2628,6 +2717,16 @@
 			(type default)
 		)
 		(uuid "e9648903-12b2-4b42-ba5d-ce8ac4e333aa")
+	)
+	(wire
+		(pts
+			(xy 374.65 110.49) (xy 355.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97d8675-81e7-4cbd-9707-996238d3a1a4")
 	)
 	(bus
 		(pts
@@ -7070,7 +7169,7 @@
 		)
 	)
 	(image
-		(at 391.16 85.09)
+		(at 391.16 81.28)
 		(scale 0.182452)
 		(uuid "74c54a91-d912-4511-a578-065d79a813e3")
 		(data "iVBORw0KGgoAAAANSUhEUgAAANYAAAFkCAYAAABclsXkAAAAAXNSR0IArs4c6QAAAARnQU1BAACx"
@@ -21379,8 +21478,18 @@
 			"QRAEQRAEQRAEQRAEQRAE4Tzz/wGgHZgBoUHVbQAAAABJRU5ErkJggg=="
 		)
 	)
+	(label "Select_GPIO"
+		(at 374.65 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08d088a4-e08a-46bf-ae36-a56105dce45c")
+	)
 	(label "Altmode1"
-		(at 369.57 185.42 180)
+		(at 369.57 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21399,6 +21508,16 @@
 		)
 		(uuid "1388700d-ed64-4537-8627-56d29231b751")
 	)
+	(label "RJ45_DWN_RX1"
+		(at 374.65 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18e3b2f9-57c7-4ab3-b9b4-7b6e385d1782")
+	)
 	(label "RJ45_DWN_TX1"
 		(at 228.6 259.08 0)
 		(effects
@@ -21408,26 +21527,6 @@
 			(justify left bottom)
 		)
 		(uuid "1a4ddc20-5c53-400d-9376-ac19dcc24975")
-	)
-	(label "Select_GPIO"
-		(at 359.41 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1da2e94a-0cad-4319-8a01-fc763bfd9341")
-	)
-	(label "RJ45_UP_TX1"
-		(at 359.41 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28fe994e-b28e-403f-b9fa-3a203bd581b1")
 	)
 	(label "RJ45_UP_TX1"
 		(at 95.25 259.08 0)
@@ -21440,7 +21539,7 @@
 		(uuid "404d60fb-4d2e-43dc-ace0-479b970bccdc")
 	)
 	(label "Altmode3"
-		(at 369.57 205.74 180)
+		(at 369.57 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21458,26 +21557,6 @@
 			(justify right bottom)
 		)
 		(uuid "5072019b-705d-4191-bba9-7d1beffc0cbc")
-	)
-	(label "RJ45_UP_RX1"
-		(at 359.41 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5980884f-0bc9-4e6e-9230-c629de8e6d24")
-	)
-	(label "RJ45_DWN_TX1"
-		(at 359.41 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d339c0e-4b44-4eaa-8442-899482c064ac")
 	)
 	(label "RJ45_UP_RX1"
 		(at 166.37 259.08 180)
@@ -21500,7 +21579,7 @@
 		(uuid "8dd97e88-e5be-4333-9441-60882ef184bd")
 	)
 	(label "Altmode2"
-		(at 369.57 182.88 180)
+		(at 369.57 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21509,15 +21588,15 @@
 		)
 		(uuid "8e7db25b-6102-433e-b6b1-f14814d88224")
 	)
-	(label "RJ45_DWN_RX1"
-		(at 359.41 99.06 0)
+	(label "RJ45_DWN_TX1"
+		(at 374.65 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "c1464c0f-598f-46f0-a745-f8c671dca0da")
+		(uuid "ac316ddb-2dc8-46e8-ba27-89b1c123c913")
 	)
 	(label "CAN2.RX"
 		(at 349.25 182.88 180)
@@ -21539,6 +21618,16 @@
 		)
 		(uuid "d093b2aa-aceb-4500-93db-20c4a36d231f")
 	)
+	(label "RJ45_UP_RX1"
+		(at 374.65 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1d356d6-5ce6-4b18-a3c1-152fc7e15ec6")
+	)
 	(label "CAN1.RX"
 		(at 349.25 203.2 180)
 		(effects
@@ -21548,6 +21637,16 @@
 			(justify right bottom)
 		)
 		(uuid "d7293d9d-f06e-430f-8dfc-b94b1b765917")
+	)
+	(label "RJ45_UP_TX1"
+		(at 374.65 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5e7176e-ace0-479b-adb7-e9272541c9de")
 	)
 	(label "CAN1.TX"
 		(at 349.25 205.74 180)
@@ -21560,7 +21659,7 @@
 		(uuid "f0311048-2491-4a6e-9fcc-32fe5d470a8d")
 	)
 	(label "Altmode4"
-		(at 369.57 203.2 180)
+		(at 369.57 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21876,6 +21975,232 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,1N5819WS")
+		(at 161.29 195.58 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55cbb5d7-4078-4fcb-b982-4768dd9cb46e")
+		(property "Reference" "D6"
+			(at 158.75 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 158.75 197.1675 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+			(at 163.068 195.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409300937_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Diodes ROHS"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C191023"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "1836556"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.013USD"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Guangdong Hottech"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "1N5819WS"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rectified Current" "1A"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "600mV@1A"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "40V"
+			(at 161.29 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8db84748-341d-422b-b204-eed84f70144b")
+		)
+		(pin "1"
+			(uuid "cac188d8-b52a-4888-ad49-1f62a1cb0220")
+		)
+		(instances
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 21.59 269.24 0)
 		(unit 1)
@@ -21948,109 +22273,6 @@
 			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 161.29 195.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70fa793f-97cd-4c87-bdbf-777fb73e19e9")
-		(property "Reference" "D8"
-			(at 158.75 196.8501 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 158.75 194.3101 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 161.29 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 161.29 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 161.29 195.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d2150315-41dc-4e13-b1f0-a9630ce28263")
-		)
-		(pin "1"
-			(uuid "3dc1e769-8fae-48a8-94b0-569c502883ae")
-		)
-		(instances
-			(project "MMS3_ESP32-C6"
-				(path "/712cea22-140d-4c92-923f-f4998caf3ecd"
-					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -22844,9 +23066,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 149.86 205.74 0)
-		(mirror y)
+		(lib_id "PCM_JLCPCB-Diodes:Schottky,1N5819WS")
+		(at 149.86 205.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22854,9 +23075,33 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fab0c250-400e-4019-aae7-bbe1ec90d432")
+		(uuid "eb3dccf5-e0db-455f-97ae-2eb8e10d1827")
 		(property "Reference" "D7"
-			(at 149.86 199.39 0)
+			(at 151.13 203.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 151.4475 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:D_SOD-323"
+			(at 149.86 207.518 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22865,17 +23110,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 149.86 201.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409300937_Guangdong-Hottech-1N5819WS_C191023.pdf"
 			(at 149.86 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -22886,7 +23121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Diodes ROHS"
 			(at 149.86 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -22897,7 +23132,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "LCSC" "C191023"
 			(at 149.86 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -22908,7 +23143,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "D"
+		(property "Stock" "1836556"
 			(at 149.86 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -22919,7 +23154,117 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Price" "0.013USD"
+			(at 149.86 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 149.86 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 149.86 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 149.86 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 149.86 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Diodes,Schottky Barrier Diodes (SBD)"
+			(at 149.86 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Guangdong Hottech"
+			(at 149.86 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "1N5819WS"
+			(at 149.86 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rectified Current" "1A"
+			(at 149.86 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Forward Voltage (Vf@If)" "600mV@1A"
+			(at 149.86 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Reverse Voltage (Vr)" "40V"
 			(at 149.86 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -22931,10 +23276,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a51564bf-8d85-410b-9524-e77cd70454b7")
+			(uuid "e85ba260-2d03-451e-977d-0cac209a1d80")
 		)
 		(pin "1"
-			(uuid "928744bd-d8fc-4d9d-bfb0-3ae3494be837")
+			(uuid "1e90dea7-0e09-4db6-b196-694a1729c052")
 		)
 		(instances
 			(project "MMS3_ESP32-C6"
@@ -23058,16 +23403,6 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO[0..11]" input
-			(at 355.6 114.3 0)
-			(uuid "2941adcf-1ff4-497a-bef0-e1c55e46dee4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C{I2C}" input
 			(at 322.58 114.3 180)
 			(uuid "2bb708ec-1bb9-4bb4-b0ac-591223eb5ef2")
@@ -23076,6 +23411,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GPIO[0..12]" bidirectional
+			(at 355.6 114.3 0)
+			(uuid "a9feb852-162f-420c-a7f1-8bdcbef18334")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RJ45_DWN_RX1" input
+			(at 355.6 99.06 0)
+			(uuid "de504300-d378-43db-8a33-94ddeb2bec06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RJ45_DWN_TX1" input
+			(at 355.6 101.6 0)
+			(uuid "148019c9-54a0-48ea-bd45-83ac7f51a437")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RJ45_UP_RX1" input
+			(at 355.6 107.95 0)
+			(uuid "a2761fe6-15c5-458b-b74d-76d805fdf80d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RJ45_UP_TX1" input
+			(at 355.6 110.49 0)
+			(uuid "92526ee1-d35b-4a31-bf5c-b293dcaf276f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Select_GPIO" input
+			(at 355.6 92.71 0)
+			(uuid "a1dc8fe1-2303-42b8-be0f-b357b6dcda69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -23776,49 +24171,9 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO[0..11]" input
+		(pin "GPIO[0..12]" bidirectional
 			(at 378.46 114.3 180)
-			(uuid "dbe5335f-2362-4544-a385-7d96fb540fd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RJ45_DWN_RX1" input
-			(at 378.46 99.06 180)
-			(uuid "14eea869-88d9-49ee-8a29-b27b43fd5b82")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RJ45_DWN_TX1" input
-			(at 378.46 101.6 180)
-			(uuid "e5a8662c-02d7-46e4-b765-5888a2de9cc8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RJ45_UP_RX1" input
-			(at 378.46 107.95 180)
-			(uuid "5abc8ff4-4323-4df9-a0c3-87baaf1c840b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "RJ45_UP_TX1" input
-			(at 378.46 110.49 180)
-			(uuid "b8e16866-db37-4302-8982-4ca17333d3f3")
+			(uuid "292a6f81-8a44-4750-be6f-54c7026b585f")
 			(effects
 				(font
 					(size 1.27 1.27)

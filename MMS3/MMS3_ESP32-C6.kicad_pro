@@ -62,8 +62,96 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|138965000|116415000|02b3ab3d-910e-4ee9-8465-4c4d589998ec|eef302f7-c403-4e62-868b-946680a243fb",
-          "They will fit, trust me"
+          "courtyards_overlap|138355000|116415000|02b3ab3d-910e-4ee9-8465-4c4d589998ec|eef302f7-c403-4e62-868b-946680a243fb",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|157205000|118505000|1e7ffd0d-3706-4416-a201-23c19cf77ee8|eef302f7-c403-4e62-868b-946680a243fb",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|157205000|120505000|0b142d48-0165-4e2a-9c11-967f85d15cad|eef302f7-c403-4e62-868b-946680a243fb",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|157205000|125105000|2e6ad0ea-3157-4881-a003-c9236e01b4fe|eef302f7-c403-4e62-868b-946680a243fb",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|157205000|127305000|abdecc27-0b18-45a9-a66a-bfebd28dd7f3|eef302f7-c403-4e62-868b-946680a243fb",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|157255000|118505000|1e7ffd0d-3706-4416-a201-23c19cf77ee8|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|157255000|120505000|0b142d48-0165-4e2a-9c11-967f85d15cad|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|157255000|125105000|2e6ad0ea-3157-4881-a003-c9236e01b4fe|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|157255000|127305000|abdecc27-0b18-45a9-a66a-bfebd28dd7f3|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|157580000|116415000|c4798e40-91d9-4d0a-a369-8b30f9b3a873|eef302f7-c403-4e62-868b-946680a243fb",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|171335000|101717500|58199a9a-4be9-4ff5-95c2-7d0217fcfd61|e82910a6-714d-48e0-913a-f6316d1557ba",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|176005000|126405000|2ebe6c1d-3822-4f57-bdef-d1023e675e99|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|176005000|129805000|861a91c2-3740-4c64-8520-d067fe730da3|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|176375000|123550000|4055eaa8-0ca5-4db9-b5e8-89448b4d6098|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|176375000|126405000|2ebe6c1d-3822-4f57-bdef-d1023e675e99|4055eaa8-0ca5-4db9-b5e8-89448b4d6098",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|176375000|129805000|4055eaa8-0ca5-4db9-b5e8-89448b4d6098|861a91c2-3740-4c64-8520-d067fe730da3",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|182395000|122105000|9035fdd0-2644-4422-a4d9-6b6ca940aef8|faa1308d-bcd5-42bf-8a15-b4652870b046",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|182880463|123550000|4055eaa8-0ca5-4db9-b5e8-89448b4d6098|9035fdd0-2644-4422-a4d9-6b6ca940aef8",
+          "SW is above USB"
+        ],
+        [
+          "courtyards_overlap|183405000|122330000|9035fdd0-2644-4422-a4d9-6b6ca940aef8|f08335c6-67b1-4c9a-ab10-f05cae094648",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|191505000|123384701|0f30e2f6-9024-4dcc-b09f-830771259520|f48ad279-3962-406e-9221-499248b61ead",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|194657812|125072439|0f30e2f6-9024-4dcc-b09f-830771259520|c294e7ff-4e99-4215-8b09-cef251382168",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|195625000|113175000|4a2cfd1f-220a-457f-aec9-4ece48faa804|c84ccfdf-62c9-4787-9842-f23438497208",
+          "3D models Fit"
+        ],
+        [
+          "courtyards_overlap|198575000|114555000|0f30e2f6-9024-4dcc-b09f-830771259520|4a2cfd1f-220a-457f-aec9-4ece48faa804",
+          "3D models Fit"
         ]
       ],
       "meta": {
@@ -200,6 +288,7 @@
       ],
       "track_widths": [
         0.0,
+        0.12,
         0.2,
         0.4,
         0.8,
@@ -537,7 +626,7 @@
         "microvia_drill": 0.1,
         "name": "CAN_120_DIFF",
         "pcb_color": "rgb(255, 81, 215)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "tuning_profile": "",
@@ -555,7 +644,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -573,13 +662,21 @@
         "microvia_drill": 0.1,
         "name": "QSPI_50S_SE",
         "pcb_color": "rgb(55, 255, 75)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
         "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.355542,
+        "tuning_profile": ""
       },
       {
         "bus_width": 12,
@@ -591,7 +688,7 @@
         "microvia_drill": 0.1,
         "name": "USB_90_DIFF",
         "pcb_color": "rgb(38, 8, 255)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "tuning_profile": "",
@@ -604,7 +701,20 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/ESP32-C6/ANT": [
+        "RF"
+      ],
+      "/ESP32-C6/ANT_CN": [
+        "RF"
+      ],
+      "/ESP32-C6/More_RF": [
+        "RF"
+      ],
+      "/ESP32-C6/RF": [
+        "RF"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "USB_90_DIFF",
@@ -1464,7 +1574,7 @@
         "uuid": "712cea22-140d-4c92-923f-f4998caf3ecd"
       }
     ],
-    "used_designators": "U8",
+    "used_designators": "D6-7,R61",
     "variants": []
   },
   "sheets": [
