@@ -1707,19 +1707,6 @@
 		)
 		(uuid "50fbe405-52cd-4a11-9bb2-42a120422741")
 	)
-	(text "+Cstray"
-		(exclude_from_sim no)
-		(at 166.37 74.93 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(color 255 0 255 1)
-			)
-		)
-		(uuid "7807bdd8-63ee-418b-8294-735cb71d545e")
-	)
 	(text "ESP32-C6"
 		(exclude_from_sim no)
 		(at 187.96 116.84 0)
@@ -2540,16 +2527,6 @@
 	)
 	(bus
 		(pts
-			(xy 374.65 123.19) (xy 374.65 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c741a534-6e4d-401a-ae71-f8d31b3f6b93")
-	)
-	(bus
-		(pts
 			(xy 339.09 179.07) (xy 339.09 182.88)
 		)
 		(stroke
@@ -2727,6 +2704,16 @@
 			(type default)
 		)
 		(uuid "e97d8675-81e7-4cbd-9707-996238d3a1a4")
+	)
+	(bus
+		(pts
+			(xy 374.65 203.2) (xy 374.65 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0e1cc4-9caf-45b1-b6d8-12501d289ada")
 	)
 	(bus
 		(pts

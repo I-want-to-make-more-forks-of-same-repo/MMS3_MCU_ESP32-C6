@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.55,
-          "width": 1.55
+          "drill": 0.0,
+          "height": 0.224,
+          "width": 0.665
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -66,43 +66,11 @@
           "3D models Fit"
         ],
         [
-          "courtyards_overlap|157205000|118505000|1e7ffd0d-3706-4416-a201-23c19cf77ee8|eef302f7-c403-4e62-868b-946680a243fb",
-          "3D models Fit"
-        ],
-        [
-          "courtyards_overlap|157205000|120505000|0b142d48-0165-4e2a-9c11-967f85d15cad|eef302f7-c403-4e62-868b-946680a243fb",
-          "3D models Fit"
-        ],
-        [
-          "courtyards_overlap|157205000|125105000|2e6ad0ea-3157-4881-a003-c9236e01b4fe|eef302f7-c403-4e62-868b-946680a243fb",
-          "3D models Fit"
-        ],
-        [
           "courtyards_overlap|157205000|127305000|abdecc27-0b18-45a9-a66a-bfebd28dd7f3|eef302f7-c403-4e62-868b-946680a243fb",
           "3D models Fit"
         ],
         [
-          "courtyards_overlap|157255000|118505000|1e7ffd0d-3706-4416-a201-23c19cf77ee8|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
-          "3D models Fit"
-        ],
-        [
-          "courtyards_overlap|157255000|120505000|0b142d48-0165-4e2a-9c11-967f85d15cad|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
-          "3D models Fit"
-        ],
-        [
-          "courtyards_overlap|157255000|125105000|2e6ad0ea-3157-4881-a003-c9236e01b4fe|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
-          "3D models Fit"
-        ],
-        [
           "courtyards_overlap|157255000|127305000|abdecc27-0b18-45a9-a66a-bfebd28dd7f3|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
-          "3D models Fit"
-        ],
-        [
-          "courtyards_overlap|157580000|116415000|c4798e40-91d9-4d0a-a369-8b30f9b3a873|eef302f7-c403-4e62-868b-946680a243fb",
-          "3D models Fit"
-        ],
-        [
-          "courtyards_overlap|171335000|101717500|58199a9a-4be9-4ff5-95c2-7d0217fcfd61|e82910a6-714d-48e0-913a-f6316d1557ba",
           "3D models Fit"
         ],
         [
@@ -114,31 +82,11 @@
           "3D models Fit"
         ],
         [
-          "courtyards_overlap|176375000|123550000|4055eaa8-0ca5-4db9-b5e8-89448b4d6098|c4798e40-91d9-4d0a-a369-8b30f9b3a873",
-          "3D models Fit"
-        ],
-        [
           "courtyards_overlap|176375000|126405000|2ebe6c1d-3822-4f57-bdef-d1023e675e99|4055eaa8-0ca5-4db9-b5e8-89448b4d6098",
           "3D models Fit"
         ],
         [
           "courtyards_overlap|176375000|129805000|4055eaa8-0ca5-4db9-b5e8-89448b4d6098|861a91c2-3740-4c64-8520-d067fe730da3",
-          "3D models Fit"
-        ],
-        [
-          "courtyards_overlap|182395000|122105000|9035fdd0-2644-4422-a4d9-6b6ca940aef8|faa1308d-bcd5-42bf-8a15-b4652870b046",
-          "3D models Fit"
-        ],
-        [
-          "courtyards_overlap|182880463|123550000|4055eaa8-0ca5-4db9-b5e8-89448b4d6098|9035fdd0-2644-4422-a4d9-6b6ca940aef8",
-          "SW is above USB"
-        ],
-        [
-          "courtyards_overlap|183405000|122330000|9035fdd0-2644-4422-a4d9-6b6ca940aef8|f08335c6-67b1-4c9a-ab10-f05cae094648",
-          "3D models Fit"
-        ],
-        [
-          "courtyards_overlap|191505000|123384701|0f30e2f6-9024-4dcc-b09f-830771259520|f48ad279-3962-406e-9221-499248b61ead",
           "3D models Fit"
         ],
         [
@@ -1574,7 +1522,7 @@
         "uuid": "712cea22-140d-4c92-923f-f4998caf3ecd"
       }
     ],
-    "used_designators": "D6-7,R61",
+    "used_designators": "D6-8,R61",
     "variants": []
   },
   "sheets": [

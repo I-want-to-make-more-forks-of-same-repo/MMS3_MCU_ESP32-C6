@@ -18,4 +18,5 @@
 	(lib (name "SPI_flash") (type "KiCad") (uri "${KIPRJMOD}/Lib/SPI_flash.pretty") (options "") (descr ""))
 	(lib (name "I2C_GPIO") (type "KiCad") (uri "${KIPRJMOD}/Lib/I2C_GPIO.pretty") (options "") (descr ""))
 	(lib (name "spi_flash") (type "KiCad") (uri "${KIPRJMOD}/Lib/spi_flash.pretty") (options "") (descr ""))
+	(lib (name "RF_TVS") (type "KiCad") (uri "${KIPRJMOD}/Lib/RF_TVS.pretty") (options "") (descr ""))
 )

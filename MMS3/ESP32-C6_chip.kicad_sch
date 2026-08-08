@@ -6147,6 +6147,185 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RF_TVS:TPD1E0B04DPYR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPD1E0B04DPYR"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "RF_TVS:X1SON-2_L1.0-W0.6-P0.65-BI"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C1975594.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TI(德州仪器)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "TPD1E0B04DPYR"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C1975594"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TVS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPD1E0B04DPYR_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 0 0) (xy -2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 1.52) (xy -0.51 1.52) (xy 0 1.52) (xy 0 -1.52) (xy 0.51 -1.52) (xy 0.51 -1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Tact-sw:TC-6615Z-12.5-260"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7128,32 +7307,6 @@
 		)
 		(uuid "6063a350-06ed-436e-9059-3043002d08c5")
 	)
-	(text "Pinout"
-		(exclude_from_sim no)
-		(at 259.08 175.26 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(color 255 0 255 1)
-			)
-		)
-		(uuid "68560802-18e3-4b3f-9d33-22dcb1526bd5")
-	)
-	(text "ESD on PSU"
-		(exclude_from_sim no)
-		(at 158.75 96.52 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(color 255 0 255 1)
-			)
-		)
-		(uuid "75060741-2091-488d-9244-34241863f528")
-	)
 	(text "USB and UART0"
 		(exclude_from_sim no)
 		(at 299.72 55.372 0)
@@ -7202,45 +7355,6 @@
 			(justify left)
 		)
 		(uuid "7d28cb57-4501-458e-a363-075768eb42db")
-	)
-	(text "ESD"
-		(exclude_from_sim no)
-		(at 154.94 49.53 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(color 255 0 255 1)
-			)
-		)
-		(uuid "7d28d236-4311-497d-baeb-89aa3f904544")
-	)
-	(text "+Cstray"
-		(exclude_from_sim no)
-		(at 81.28 191.77 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(color 255 0 255 1)
-			)
-		)
-		(uuid "8cf1592d-09be-4065-bae2-860072fc46cb")
-	)
-	(text "add a stub\nto ground pad"
-		(exclude_from_sim no)
-		(at 48.26 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 1.016)
-				(bold yes)
-				(color 255 0 255 1)
-			)
-		)
-		(uuid "94f7e88e-7b10-42dd-a926-c74888b44d83")
 	)
 	(text "Chainbus I2C"
 		(exclude_from_sim no)
@@ -7314,19 +7428,6 @@
 			(justify left)
 		)
 		(uuid "ad0ff8a2-12ad-4bc7-9d0e-08bb6b496551")
-	)
-	(text "L Value"
-		(exclude_from_sim no)
-		(at 67.31 154.94 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-				(color 255 0 255 1)
-			)
-		)
-		(uuid "af13ac07-c8e0-450f-b977-0109f14344be")
 	)
 	(text "SPI memory"
 		(exclude_from_sim no)
@@ -7483,7 +7584,7 @@
 		(at 154.94 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7a59b8f-982f-4644-8956-874826ea3df1")
+		(uuid "b27428e3-b60f-4ae1-88db-a16e0b95f68a")
 	)
 	(junction
 		(at 274.32 130.81)
@@ -7997,7 +8098,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 39.37) (xy 154.94 45.72)
+			(xy 154.94 39.37) (xy 154.94 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8867,7 +8968,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 39.37) (xy 158.75 39.37)
+			(xy 154.94 39.37) (xy 171.45 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9927,7 +10028,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 44.45) (xy 163.83 52.07)
+			(xy 176.53 44.45) (xy 176.53 54.61)
 		)
 		(stroke
 			(width 0)
@@ -19437,7 +19538,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 52.07 0)
+		(at 176.53 54.61 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19449,7 +19550,7 @@
 		(fields_autoplaced yes)
 		(uuid "503ef504-88d3-424b-9408-caf44f6fafc9")
 		(property "Reference" "#PWR085"
-			(at 163.83 58.42 0)
+			(at 176.53 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19460,7 +19561,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 57.15 0)
+			(at 176.53 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19470,7 +19571,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 52.07 0)
+			(at 176.53 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19481,7 +19582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 52.07 0)
+			(at 176.53 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19492,7 +19593,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 52.07 0)
+			(at 176.53 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24827,7 +24928,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 163.83 39.37 0)
+		(at 176.53 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24838,7 +24939,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5c91d63-9e69-41aa-9216-98f32c2fe3e2")
 		(property "Reference" "J5"
-			(at 167.64 38.3931 0)
+			(at 180.34 38.3931 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24849,7 +24950,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 167.64 40.9331 0)
+			(at 180.34 40.9331 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24860,7 +24961,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-143_Horizontal"
-			(at 163.83 39.37 0)
+			(at 176.53 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24871,7 +24972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 39.37 0)
+			(at 176.53 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24882,7 +24983,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 163.83 39.37 0)
+			(at 176.53 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25504,6 +25605,121 @@
 			(project "MMS3_ESP32-C6"
 				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/f58b04f6-bb02-4b0f-a390-7a8ed3ac3405"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RF_TVS:TPD1E0B04DPYR")
+		(at 154.94 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db465ac4-cc97-49f0-9db9-b8df6d9f4657")
+		(property "Reference" "D8"
+			(at 157.48 45.7199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPD1E0B04DPYR"
+			(at 157.48 48.2599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RF_TVS:X1SON-2_L1.0-W0.6-P0.65-BI"
+			(at 162.56 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1975594.pdf"
+			(at 165.1 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI(德州仪器)"
+			(at 167.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TPD1E0B04DPYR"
+			(at 170.18 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1975594"
+			(at 172.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0d847f2b-c65b-4245-801d-918fbfd81f72")
+		)
+		(pin "1"
+			(uuid "39deec00-bbf8-4faa-9ee8-cadc819f323b")
+		)
+		(instances
+			(project "MMS3_ESP32-C6"
+				(path "/712cea22-140d-4c92-923f-f4998caf3ecd/f58b04f6-bb02-4b0f-a390-7a8ed3ac3405"
+					(reference "D8")
 					(unit 1)
 				)
 			)
