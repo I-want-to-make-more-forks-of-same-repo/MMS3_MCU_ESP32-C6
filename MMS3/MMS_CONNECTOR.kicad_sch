@@ -6092,7 +6092,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fb3c9ad9-1d79-4f04-a773-4e952284bfd6")
 		(property "Reference" "J8"
