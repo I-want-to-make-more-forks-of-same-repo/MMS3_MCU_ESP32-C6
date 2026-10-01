@@ -7,4 +7,6 @@
 	(lib (name "I2C_GPIO") (type "KiCad") (uri "${KIPRJMOD}/Lib/I2C_GPIO.pretty/I2C_GPIO.kicad_sym") (options "") (descr ""))
 	(lib (name "spi_flash") (type "KiCad") (uri "${KIPRJMOD}/Lib/spi_flash.pretty/spi_flash.kicad_sym") (options "") (descr ""))
 	(lib (name "RF_TVS") (type "KiCad") (uri "${KIPRJMOD}/Lib/RF_TVS.pretty/RF_TVS.kicad_sym") (options "") (descr ""))
+
+  (lib (name "lcsc_imported")(type "KiCad")(uri "${KIPRJMOD}/libs/lcsc/symbols/lcsc_imported.kicad_sym")(options "")(descr "LCSC imported components"))
 )
