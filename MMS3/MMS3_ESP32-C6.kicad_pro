@@ -1462,7 +1462,7 @@
           "show": false
         }
       ],
-      "filter_string": "J",
+      "filter_string": "R21",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -1604,7 +1604,7 @@
         "uuid": "712cea22-140d-4c92-923f-f4998caf3ecd"
       }
     ],
-    "used_designators": "X4,J3,R11,R21-22,R61,D2,D6-8,#PWR65,#PWR136,#PWR332-333",
+    "used_designators": "X4,J3,R11,R21-22,R61,C10-11,C48,D2,D6-9,#PWR65,#PWR136,#PWR147,#PWR332-333",
     "variants": []
   },
   "sheets": [

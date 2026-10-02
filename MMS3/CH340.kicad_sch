@@ -2472,18 +2472,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "UART\nFlip here"
-		(exclude_from_sim no)
-		(at 127 41.91 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-		)
-		(uuid "1f62e92e-1852-438f-8c09-410e7ea479c1")
-	)
 	(text "EN and Boot0 sequencing"
 		(exclude_from_sim no)
 		(at 181.61 114.3 0)
@@ -2667,33 +2655,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 64.77) (xy 109.22 64.77)
+			(xy 104.14 64.77) (xy 129.54 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1d52d9f8-b776-4b09-9b3a-ff94f09f98c0")
-	)
-	(wire
-		(pts
-			(xy 113.03 67.31) (xy 109.22 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1eaafee9-a466-4a64-9584-1ed12f43eb12")
-	)
-	(wire
-		(pts
-			(xy 113.03 64.77) (xy 129.54 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "230b8814-6878-4b88-a787-cc03e5d3be48")
 	)
 	(bus
 		(pts
@@ -2724,16 +2692,6 @@
 			(type default)
 		)
 		(uuid "2c8448e6-fcc4-442b-8a33-59ae8e8b2c3a")
-	)
-	(polyline
-		(pts
-			(xy 110.49 62.23) (xy 113.03 59.69)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(uuid "32cf8617-e211-4221-b609-5ffbd5b584a2")
 	)
 	(wire
 		(pts
@@ -2777,23 +2735,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 67.31) (xy 109.22 67.31)
+			(xy 104.14 67.31) (xy 129.54 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "435408f7-49c5-4002-bec2-9f9197260132")
-	)
-	(wire
-		(pts
-			(xy 113.03 67.31) (xy 129.54 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "457742e0-976c-4635-b6a1-c1fc8b35d917")
 	)
 	(wire
 		(pts
@@ -2844,16 +2792,6 @@
 			(type default)
 		)
 		(uuid "55d32add-5d36-4600-a1ae-f6f6a6e08312")
-	)
-	(polyline
-		(pts
-			(xy 110.49 53.34) (xy 110.49 62.23)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(uuid "5b2b67a8-a0b4-4e6d-834c-67654dfc4574")
 	)
 	(bus
 		(pts
@@ -3067,16 +3005,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 67.31) (xy 113.03 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cefa16df-5582-4d1b-a973-fe70727a5bdc")
-	)
-	(wire
-		(pts
 			(xy 78.74 111.76) (xy 82.55 111.76)
 		)
 		(stroke
@@ -3134,16 +3062,6 @@
 			(type default)
 		)
 		(uuid "e1374984-21dc-4a45-841d-03568afd3df4")
-	)
-	(polyline
-		(pts
-			(xy 107.95 59.69) (xy 110.49 62.23)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-		)
-		(uuid "ea1af48b-fd70-4304-8141-c1123ea97fb4")
 	)
 	(wire
 		(pts
@@ -3226,7 +3144,7 @@
 		(uuid "5f39d216-fe0f-4992-8aeb-2fed826a1eca")
 	)
 	(label "Prg.TX"
-		(at 120.65 67.31 0)
+		(at 120.65 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3256,7 +3174,7 @@
 		(uuid "cecaf69a-41a2-423a-b53a-f33194546c9b")
 	)
 	(label "Prg.RX"
-		(at 120.65 64.77 0)
+		(at 120.65 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
